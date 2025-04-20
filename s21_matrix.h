@@ -1,8 +1,12 @@
 #pragma once
 
+#include <inttypes.h>
 #include <math.h>
+#include <omp.h>
+#include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 enum ERROR_CODES { OK, INCORRECT_MATRIX, CALCULATION_ERROR };
 
